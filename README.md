@@ -27,7 +27,7 @@ Find us at:
 
 [![GitHub Release](https://img.shields.io/github/release/linuxserver-playground/docker-bookstack.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=github)](https://github.com/linuxserver-playground/docker-bookstack/releases)
 [![GitHub Package Repository](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=linuxserver.io&message=GitHub%20Package&logo=github)](https://github.com/linuxserver-playground/docker-bookstack/packages)
-[![Docs](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=linuxserver.io&message=Docs&logo=materialformkdocs)](https://linuxserver-playground.github.io/docs/images/docker-bookstack)
+[![Docs](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=linuxserver.io&message=Docs&logo=materialformkdocs)](https://linuxserver-playground.github.io/site/images/bookstack/)
 [![CI](https://ci.thelamer.duckdns.org:8443/badge/bookstack/latest.svg)](https://ci.thelamer.duckdns.org:8443/images/bookstack/latest)
 
 [Bookstack](https://codeberg.org/bookstack/bookstack) is a free and open source Wiki designed for creating beautiful documentation. Featuring a simple, but powerful WYSIWYG editor it allows for teams to create detailed and useful documentation with ease.
@@ -92,7 +92,7 @@ The container will copy an exemplary .env file to /config/www/.env on your host 
 
 ## Read-Only Operation
 
-This image can be run with a read-only container filesystem. For details please [read the docs](https://linuxserver-playground.github.io/docs/misc/read-only/).
+This image can be run with a read-only container filesystem. For details please [read the docs](https://linuxserver-playground.github.io/site/docs/misc/read-only/).
 
 ### Caveats
 
@@ -105,7 +105,7 @@ To help you get started creating a container from this image you can either use 
 > [!NOTE]
 > Unless a parameter is flagged as 'optional', it is *mandatory* and a value must be provided.
 
-### docker-compose (recommended, [click here for more info](https://linuxserver-playground.github.io/docs/general/docker-compose))
+### docker-compose (recommended, [click here for more info](https://linuxserver-playground.github.io/site/docs/general/docker-compose))
 
 ```yaml
 ---
@@ -173,7 +173,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-e DB_DATABASE=` | Database name |
 | `-e QUEUE_CONNECTION=` | Set to `database` to enable async actions like sending email or triggering webhooks. See [documentation](https://www.bookstackapp.com/docs/admin/email-webhooks/#async-action-handling). |
 | `-v /config` | Persistent config files |
-| `--read-only=true` | Run container with a read-only filesystem. Please [read the docs](https://linuxserver-playground.github.io/docs/misc/read-only/). |
+| `--read-only=true` | Run container with a read-only filesystem. Please [read the docs](https://linuxserver-playground.github.io/site/docs/misc/read-only/). |
 
 ## Environment variables from files (Docker secrets)
 
@@ -212,7 +212,7 @@ uid=1000(your_user) gid=1000(your_user) groups=1000(your_user)
 
 ## Docker Mods
 
-[![Docker Mods](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=bookstack&message=mods&logo=docker)](https://linuxserver-playground.github.io/hub/mods/?image=bookstack "view available mods for this container.") [![Docker Universal Mods](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=universal&message=mods&logo=docker)](https://linuxserver-playground.github.io/hub/mods/?image=universal "view available universal mods.")
+[![Docker Mods](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=bookstack&message=mods&logo=docker)](https://linuxserver-playground.github.io/site/mods/?image=bookstack "view available mods for this container.") [![Docker Universal Mods](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=universal&message=mods&logo=docker)](https://linuxserver-playground.github.io/site/mods/?image=universal "view available universal mods.")
 
 We publish various [Docker Mods](https://github.com/linuxserver-playground/docker-mods) to enable additional functionality within the containers. The list of Mods available for this image (if any) as well as universal mods that can be applied to any one of our images can be accessed via the badges above.
 
