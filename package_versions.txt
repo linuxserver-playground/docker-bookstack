@@ -1,9 +1,10 @@
 NAME                                VERSION                 TYPE                           
 Hidden Input                        1, 0, 0, 0              binary                         
-PHP                                 8.3.35                  binary        (+3 duplicates)  
-PHP                                 8.4.26                  binary        (+1 duplicate)   
-PHP                                 8.5.11                  binary        (+1 duplicate)   
-PHP                                 8.6.0RC2                binary        (+1 duplicate)   
+PHP                                 8.2.35                  binary        (+1 duplicate)   
+PHP                                 8.3.36                  binary        (+3 duplicates)  
+PHP                                 8.4.27                  binary        (+1 duplicate)   
+PHP                                 8.5.12                  binary        (+1 duplicate)   
+PHP                                 8.6.0RC4                binary        (+1 duplicate)   
 acl-libs                            2.3.2-r1                apk                            
 alpine-baselayout                   3.7.2-r1                apk                            
 alpine-baselayout-data              3.7.2-r1                apk                            
@@ -16,7 +17,7 @@ apr                                 1.7.6-r0                apk
 apr-util                            1.6.4-r0                apk                            
 argon2-libs                         20190702-r5             apk                            
 aws/aws-crt-php                     v1.2.7                  php-composer                   
-aws/aws-sdk-php                     3.401.3                 php-composer                   
+aws/aws-sdk-php                     3.403.2                 php-composer                   
 bacon/bacon-qr-code                 v3.1.1                  php-composer                   
 bash                                5.3.9-r1                apk                            
 brick/math                          0.14.8                  php-composer                   
@@ -37,7 +38,7 @@ curl                                8.23.0-r0               apk
 dasprid/enum                        1.0.7                   php-composer                   
 dbus-libs                           1.16.2-r2               apk                            
 dflydev/dot-access-data             v3.0.3                  php-composer                   
-doctrine/inflector                  2.1.0                   php-composer                   
+doctrine/inflector                  2.1.1                   php-composer                   
 doctrine/lexer                      3.0.3                   php-composer                   
 dompdf/dompdf                       v3.1.6                  php-composer                   
 dompdf/php-font-lib                 1.0.2                   php-composer                   
@@ -47,7 +48,7 @@ egulias/email-validator             4.0.4                   php-composer
 encodings                           1.1.0-r0                apk                            
 ezyang/htmlpurifier                 v4.19.1                 php-composer                   
 fakerphp/faker                      v1.24.1                 php-composer                   
-filp/whoops                         2.18.7                  php-composer                   
+filp/whoops                         2.19.3                  php-composer                   
 findutils                           4.10.0-r1               apk                            
 firebase/php-jwt                    v7.2.1                  php-composer                   
 font-freefont                       20120503-r4             apk                            
@@ -59,7 +60,7 @@ git                                 2.54.0-r0               apk
 git-init-template                   2.54.0-r0               apk                            
 glib                                2.88.1-r1               apk                            
 graham-campbell/result-type         v1.2.0                  php-composer                   
-guzzlehttp/guzzle                   7.16.0                  php-composer                   
+guzzlehttp/guzzle                   7.16.1                  php-composer                   
 guzzlehttp/promises                 2.6.0                   php-composer                   
 guzzlehttp/psr7                     2.13.2                  php-composer                   
 guzzlehttp/uri-template             v1.0.11                 php-composer                   
@@ -72,13 +73,13 @@ intervention/image                  3.11.10                 php-composer
 itsgoingd/clockwork                 v5.3.5                  php-composer                   
 jq                                  1.8.2-r0                apk                            
 knplabs/knp-snappy                  v1.7.3                  php-composer                   
-larastan/larastan                   v3.13.0                 php-composer                   
-laravel/framework                   v12.70.0                php-composer                   
-laravel/prompts                     v0.3.26                 php-composer                   
+larastan/larastan                   v3.14.0                 php-composer                   
+laravel/framework                   v12.71.0                php-composer                   
+laravel/prompts                     v0.3.27                 php-composer                   
 laravel/serializable-closure        v2.1.0                  php-composer                   
 laravel/socialite                   v5.30.0                 php-composer                   
 laravel/tinker                      v2.11.1                 php-composer                   
-league/commonmark                   2.10.4                  php-composer                   
+league/commonmark                   2.10.7                  php-composer                   
 league/config                       v1.2.0                  php-composer                   
 league/flysystem                    3.36.0                  php-composer                   
 league/flysystem-aws-s3-v3          3.35.3                  php-composer                   
@@ -87,8 +88,8 @@ league/html-to-markdown             5.2.3                   php-composer
 league/mime-type-detection          1.17.0                  php-composer                   
 league/oauth1-client                v1.12.0                 php-composer                   
 league/oauth2-client                2.9.1                   php-composer                   
-league/uri                          7.9.0                   php-composer                   
-league/uri-interfaces               7.9.0                   php-composer                   
+league/uri                          7.10.0                  php-composer                   
+league/uri-interfaces               7.10.0                  php-composer                   
 libapk                              3.0.9-r0                apk                            
 libattr                             2.5.2-r2                apk                            
 libavif                             1.4.1-r0                apk                            
@@ -141,7 +142,7 @@ linux-pam                           1.7.1-r2                apk
 logrotate                           3.22.0-r0               apk                            
 mariadb-client                      11.8.9-r0               apk                            
 mariadb-common                      11.8.9-r0               apk                            
-masterminds/html5                   2.11.0                  php-composer                   
+masterminds/html5                   2.12.0                  php-composer                   
 memcached                           1.6.42-r0               apk                            
 mkfontscale                         1.2.4-r0                apk                            
 mockery/mockery                     1.6.15                  php-composer                   
@@ -152,19 +153,19 @@ musl-utils                          1.2.6-r3                apk
 myclabs/deep-copy                   1.14.0                  php-composer                   
 nano                                9.3-r0                  apk                            
 ncurses-terminfo-base               6.6_p20260516-r0        apk                            
-nesbot/carbon                       3.15.0                  php-composer                   
+nesbot/carbon                       3.15.1                  php-composer                   
 netcat-openbsd                      1.234.1-r0              apk                            
-nette/schema                        v1.3.6                  php-composer                   
-nette/utils                         v4.1.5                  php-composer                   
+nette/schema                        v1.4.0                  php-composer                   
+nette/utils                         v4.1.6                  php-composer                   
 nghttp2-libs                        1.70.0-r0               apk                            
 nginx                               1.30.6-r0               apk                            
 nikic/php-parser                    v5.9.0                  php-composer                   
 nunomaduro/collision                v8.9.5                  php-composer                   
-nunomaduro/termwind                 v2.4.0                  php-composer                   
-onelogin/php-saml                   4.3.2                   php-composer                   
+nunomaduro/termwind                 v2.4.1                  php-composer                   
+onelogin/php-saml                   4.4.1                   php-composer                   
 oniguruma                           6.9.10-r0               apk                            
 openssl                             3.5.9-r0                apk                            
-paragonie/constant_time_encoding    v3.1.3                  php-composer                   
+paragonie/constant_time_encoding    v3.1.4                  php-composer                   
 paragonie/random_compat             v9.99.100               php-composer                   
 pcre2                               10.49-r0                apk                            
 phar-io/manifest                    2.0.4                   php-composer                   
@@ -197,8 +198,8 @@ php85-xml                           8.5.12-r0               apk
 php85-xmlwriter                     8.5.12-r0               apk                            
 php85-zip                           8.5.12-r0               apk                            
 phpoption/phpoption                 1.10.0                  php-composer                   
-phpseclib/phpseclib                 3.0.57                  php-composer                   
-phpstan/phpstan                     2.3.1                   php-composer                   
+phpseclib/phpseclib                 3.0.58                  php-composer                   
+phpstan/phpstan                     2.3.5                   php-composer                   
 phpunit/php-code-coverage           11.0.12                 php-composer                   
 phpunit/php-file-iterator           5.1.1                   php-composer                   
 phpunit/php-invoker                 5.0.1                   php-composer                   
@@ -207,7 +208,7 @@ phpunit/php-timer                   7.0.1                   php-composer
 phpunit/phpunit                     11.5.57                 php-composer                   
 popt                                1.19-r4                 apk                            
 pragmarx/google2fa                  v9.1.0                  php-composer                   
-predis/predis                       v3.7.0                  php-composer                   
+predis/predis                       v3.7.1                  php-composer                   
 procps-ng                           4.0.6-r0                apk                            
 psr/clock                           1.0.0                   php-composer                   
 psr/container                       2.0.2                   php-composer                   
@@ -223,7 +224,7 @@ ralouphie/getallheaders             3.0.3                   php-composer
 ramsey/collection                   2.1.1                   php-composer                   
 ramsey/uuid                         4.9.4                   php-composer                   
 readline                            8.3.3-r1                apk                            
-robrichards/xmlseclibs              3.1.5                   php-composer                   
+robrichards/xmlseclibs              4.0.1                   php-composer                   
 sabberworm/php-css-parser           v9.5.0                  php-composer                   
 scanelf                             1.3.9-r1                apk                            
 sebastian/cli-parser                3.0.2                   php-composer                   
@@ -255,43 +256,43 @@ ssddanbrown/htmldiff                v2.0.0                  php-composer
 ssl_client                          1.37.0-r31              apk                            
 staabm/side-effects-detector        1.0.5                   php-composer                   
 symfony/clock                       v7.4.21                 php-composer                   
-symfony/console                     v7.4.21                 php-composer                   
-symfony/css-selector                v7.4.18                 php-composer                   
-symfony/deprecation-contracts       v3.7.1                  php-composer                   
-symfony/dom-crawler                 v7.4.17                 php-composer                   
-symfony/error-handler               v7.4.20                 php-composer                   
+symfony/console                     v7.4.23                 php-composer                   
+symfony/css-selector                v7.4.22                 php-composer                   
+symfony/deprecation-contracts       v3.8.1                  php-composer                   
+symfony/dom-crawler                 v7.4.22                 php-composer                   
+symfony/error-handler               v7.4.22                 php-composer                   
 symfony/event-dispatcher            v7.4.17                 php-composer                   
-symfony/event-dispatcher-contracts  v3.7.1                  php-composer                   
-symfony/filesystem                  v7.4.21                 php-composer                   
-symfony/finder                      v7.4.20                 php-composer                   
-symfony/http-foundation             v7.4.21                 php-composer                   
-symfony/http-kernel                 v7.4.21                 php-composer                   
-symfony/mailer                      v7.4.19                 php-composer                   
-symfony/mime                        v7.4.19                 php-composer                   
+symfony/event-dispatcher-contracts  v3.8.1                  php-composer                   
+symfony/filesystem                  v7.4.23                 php-composer                   
+symfony/finder                      v7.4.23                 php-composer                   
+symfony/http-foundation             v7.4.23                 php-composer                   
+symfony/http-kernel                 v7.4.23                 php-composer                   
+symfony/mailer                      v7.4.22                 php-composer                   
+symfony/mime                        v7.4.22                 php-composer                   
 symfony/polyfill-ctype              v1.37.0                 php-composer                   
-symfony/polyfill-intl-grapheme      v1.43.0                 php-composer                   
+symfony/polyfill-intl-grapheme      v1.43.3                 php-composer                   
 symfony/polyfill-intl-idn           v1.43.0                 php-composer                   
 symfony/polyfill-intl-normalizer    v1.43.0                 php-composer                   
-symfony/polyfill-mbstring           v1.43.0                 php-composer                   
+symfony/polyfill-mbstring           v1.43.3                 php-composer                   
 symfony/polyfill-php80              v1.43.0                 php-composer                   
 symfony/polyfill-php83              v1.43.0                 php-composer                   
 symfony/polyfill-php84              v1.43.0                 php-composer                   
 symfony/polyfill-php85              v1.43.0                 php-composer                   
 symfony/polyfill-time               v1.42.0                 php-composer                   
 symfony/polyfill-uuid               v1.43.0                 php-composer                   
-symfony/process                     v7.4.21                 php-composer                   
-symfony/routing                     v7.4.21                 php-composer                   
-symfony/service-contracts           v3.7.3                  php-composer                   
-symfony/string                      v7.4.21                 php-composer                   
-symfony/translation                 v7.4.17                 php-composer                   
-symfony/translation-contracts       v3.7.1                  php-composer                   
+symfony/process                     v7.4.22                 php-composer                   
+symfony/routing                     v7.4.23                 php-composer                   
+symfony/service-contracts           v3.8.1                  php-composer                   
+symfony/string                      v7.4.22                 php-composer                   
+symfony/translation                 v7.4.23                 php-composer                   
+symfony/translation-contracts       v3.8.1                  php-composer                   
 symfony/uid                         v7.4.21                 php-composer                   
-symfony/var-dumper                  v7.4.21                 php-composer                   
+symfony/var-dumper                  v7.4.22                 php-composer                   
 theseer/tokenizer                   1.3.1                   php-composer                   
 tijsverkoyen/css-to-inline-styles   v2.4.0                  php-composer                   
 tzdata                              2026f-r0                apk                            
 utmps-libs                          0.1.3.3-r0              apk                            
-vlucas/phpdotenv                    v5.7.0                  php-composer                   
+vlucas/phpdotenv                    v5.8.0                  php-composer                   
 voku/portable-ascii                 2.1.1                   php-composer                   
 xemlock/htmlpurifier-html5          v0.1.12                 php-composer                   
 xz-libs                             5.8.4-r0                apk                            
