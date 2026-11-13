@@ -11,7 +11,7 @@ alpine-baselayout-data              3.7.2-r1                apk
 alpine-keys                         2.6-r0                  apk                            
 alpine-release                      3.24.4-r0               apk                            
 aom-libs                            3.14.1-r0               apk                            
-apache2-utils                       2.4.69-r0               apk                            
+apache2-utils                       2.4.71-r0               apk                            
 apk-tools                           3.0.9-r0                apk                            
 apr                                 1.7.6-r0                apk                            
 apr-util                            1.6.4-r0                apk                            
@@ -56,8 +56,8 @@ fontconfig                          2.17.1-r1               apk
 freetype                            2.14.3-r0               apk                            
 fruitcake/php-cors                  v1.4.0                  php-composer                   
 gdbm                                1.26-r0                 apk                            
-git                                 2.54.0-r0               apk                            
-git-init-template                   2.54.0-r0               apk                            
+git                                 2.54.1-r0               apk                            
+git-init-template                   2.54.1-r0               apk                            
 glib                                2.88.1-r1               apk                            
 graham-campbell/result-type         v1.2.0                  php-composer                   
 guzzlehttp/guzzle                   7.16.1                  php-composer                   
